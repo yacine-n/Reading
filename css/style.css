@@ -1,0 +1,123 @@
+/*****************tout le site*******************/
+/*body{
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}*/
+
+/*****************entete du site*******************/
+/*header{
+  background-color: lightcoral;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+}*/
+header h1{
+  margin: 0 50px;
+  line-height: 60px;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px white;
+}
+/*****************menu du site*******************/
+section#menu{
+  background-color: bisque;
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  top: 70px;
+  z-index: -1;
+}
+section#menu nav ul{
+  list-style: none;
+}
+section#menu nav ul li{
+  padding: 8px;
+}
+section#menu nav ul li:nth-of-type(2n+1){
+  background-color: lightcoral;
+}
+section#menu nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+}
+/*****************contenu du site*******************/
+section#post{
+  width: min-content;
+  margin: auto;
+  position: relative;
+  top: 70px;
+}
+section#post figure{
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: bisque;
+}
+section#post img{
+  width: 500px;
+}
+section#post img:hover{
+  transform: scale(1.2);
+}
+span.publiée{
+  background-color: white;
+}
+span#impression span{
+  margin-left: 80px;
+}
+/*****************partie contact*******************/
+section#contact table{
+  margin-left: 80%;
+  position: fixed;
+  top: 70px;
+  background-color: bisque;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+section#contact table th{
+  text-align: left;
+  background-color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+section#contact table td{
+  padding: 20px;
+}
+section#contact table tr a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+section#contact table :nth-of-type(2n){
+  background-color: lightcoral;
+}
+section#contact table tr:nth-of-type(2n)>td::after{
+  content: "(En ligne)";
+}
+section#contact table tr:nth-of-type(2n+1)>td::after{
+  content: "(Déconnecté-e)";
+}
+/*****************pied de page*******************/
+.centre{
+  text-align: center;
+  background-color: lightcoral;
+  position: relative;
+  top: 90px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.centre p, h1{
+  text-shadow: 3px 3px 3px white;
+}
+
+
+
+
+
+
+
+
+
